@@ -62,16 +62,17 @@ body {
       width: fit-content;
       border-radius: 0.25rem;
       font-weight: 800;
-      font-size: 0.875rem;
+      font-size: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
     }
     & > time {
-      font-size: 0.875rem;
+      font-size: clamp(0.75rem, 0.7rem + 0.2vw, 0.875rem);
     }
     & > h1 {
-      font-size: 1.5rem;
+      font-size: clamp(1.25rem, 1rem + 1vw, 1.5rem);
       font-weight: 800;
     }
     & > p {
+      font-size: clamp(0.875rem, 0.8rem + 0.25vw, 1rem);
       color: var(--color-gray-500);
     }
   }
